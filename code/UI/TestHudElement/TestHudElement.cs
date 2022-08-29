@@ -1,7 +1,7 @@
 
 namespace Sandbox.UI;
 
-[Hud]
+[Hud, UseTemplate]
 public partial class TestHudElement : Panel
 {
 

@@ -30,7 +30,7 @@ public partial class UIEntity : HudEntity<RootPanel>
 	public void OnHotloadEvent()
 	{
 		Setup();
-		Log.Side( "Hotloaded Hud" );
+		Log.Info( "Hotloaded Hud" );
 	}
 #endif
 
