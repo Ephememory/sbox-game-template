@@ -4,8 +4,14 @@ namespace Sandbox.UI;
 
 public partial class UIEntity : HudEntity<RootPanel>
 {
+	public static UIEntity Instance;
+
 	public UIEntity()
 	{
+		Instance = this;
+		if ( !Host.IsClient ) return;
+
+		RootPanel.StyleSheet.Load( "UI/Styles/Style.scss" );
 		Setup();
 	}
 
