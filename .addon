@@ -1,8 +1,8 @@
 {
-  "Title": "Minimal",
+  "Title": "Game Template",
   "Type": "game",
   "Org": "local",
-  "Ident": "game.minimal",
+  "Ident": "game.template",
   "Schema": 1,
   "HasAssets": true,
   "AssetsPath": "",
@@ -21,8 +21,8 @@
     "PerMapRanking": false,
     "LeaderboardType": "None",
     "ProjectTemplate": {
-      "Icon": "view_in_ar",
-      "Order": -10
+      "Icon": "document_scanner",
+      "Order": -9
     }
   }
 }
